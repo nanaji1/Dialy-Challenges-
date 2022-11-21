@@ -10,11 +10,10 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
-    <script src="script.js"></script>
   </head>
   <body>
-    <div class="container">
-      <form action="/login" method="post" id="login" onsubmit="formSubmit()">
+    <div class="container" id="login">
+      <form action="/login" method="post">
         <h1 class="container_h1">SIGN IN</h1>
         <div class="container_div">
           <input
@@ -34,7 +33,7 @@
         </div>
       </form>
       <div>
-        <button type="submit" class="login_btn" onclick="signIn()">
+        <button type="submit" class="login_btn" onclick="myFunction()">
           SIGN IN
         </button>
       </div>
@@ -44,5 +43,6 @@
         >
       </p>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>

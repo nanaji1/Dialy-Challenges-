@@ -4,18 +4,18 @@ body {
 }
 
 .container {
-  position: relative;
+  position: absolute;
   top: 150px;
+  left: 40%;
   /* display: none; */
 }
 form {
   position: fixed;
-  left: 40%;
 }
 
 .container_h1 {
   text-align: center;
-  margin-left: -1.3rem;
+  margin-left: 6rem;
 }
 
 .container_input {
@@ -39,9 +39,9 @@ form {
   opacity: 1;
 }
 .login_btn {
-  position: absolute;
+  position: fixed;
   left: 43%;
-  top: 210px;
+  top: 380px;
   width: 220px;
   height: 35px;
   border-radius: 25px;
@@ -51,9 +51,9 @@ form {
   font-weight: bold;
 }
 .container_p {
-  position: relative;
+  position: fixed;
   left: 43%;
-  top: 260px;
+  top: 410px;
 }
 .container_a {
   color: rgb(3, 56, 56);
@@ -80,6 +80,7 @@ form {
   left: 48%;
   top: 300px;
   display: flex;
+  margin-left: 3rem;
 }
 
 .sign_u {
