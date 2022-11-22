@@ -1,3 +1,7 @@
 function myFunction() {
-  document.getElementById("login");
+  alert("Login Successfully");
+}
+
+function formSign() {
+  alert("SignUp Successfully");
 }

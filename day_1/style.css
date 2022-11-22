@@ -15,7 +15,6 @@ form {
 
 .container_h1 {
   text-align: center;
-  margin-left: 6rem;
 }
 
 .container_input {
@@ -60,6 +59,10 @@ form {
 }
 .container_name {
   display: grid;
+}
+.container_h2 {
+  text-align: center;
+  margin-left: 6rem;
 }
 
 .signin_btn {
