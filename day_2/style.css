@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* background: #799bce; */
+  box-sizing: border-box;
+  min-height: 100vh;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background: #5c539d;
+}
+
+.container h2 {
+  color: #fff;
+  font-size: 32px;
+  padding: 50px 0;
+  text-align: center;
+}
+.price_row {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 25px;
+}
+.price_col {
+  background: #1f283b;
+  padding: 10% 15%;
+  border-radius: 10px;
+  color: #fff;
+  text-align: center;
+}
+.price_col p {
+  font-size: 22px;
+}
+.price_col h3 {
+  font-size: 44px;
+  margin: 20px 0 40px;
+  font-weight: 500;
+}
+.price_col h3 span {
+  font-size: 16px;
+}
+.price_col ul {
+  text-align: left;
+  margin: 20px 0;
+  color: #ddd;
+  list-style: none;
+}
+.price_col ul li {
+  margin: 15px 0;
+}
+.price_col ul li::before {
+  content: "\2022";
+  color: #e33058;
+  font-weight: bold;
+  margin-right: 8px;
+}
+.price_col button {
+  width: 100%;
+  padding: 14px 0;
+  background: transparent;
+  font-size: 15px;
+  border: 1px solid #e33058;
+  border-radius: 6px;
+  margin-top: 30px;
+  cursor: pointer;
+  transition: background 0.5s;
+}
+.price_col button:hover {
+  background-color: #e33058;
+  color: #ddd;
+}
+
+@media screen and (max-width: 1000px) {
+  .container {
+    flex-direction: column;
+    margin: 50px 0;
+  }
+
+  .box {
+    padding: 20px 20px;
+    width: 250px;
+  }
+}
