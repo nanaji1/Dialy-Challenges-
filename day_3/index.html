@@ -88,25 +88,15 @@
           type="submit"
           value="Proceed to payment"
           class="submit_btn"
-          onclick="myFunction()"
+          onclick="openPopup()"
         />
       </form>
-      <!-- <div class="h2" id="show">
-        <h2 class="name" value="fname">
-          Full Name: <span id="full_name"></span>
-        </h2>
-        <h2 class="email" value="email">Email:<span id="email"></span></h2>
-        <h2 class="address" value="address">
-          Address:<span id="address"></span>
-        </h2>
-        <h2 class="city" value="city">City:<span id="city"></span></h2>
-        <div>
-          <h2 class="state" value="state">State:<span id="state"></span></h2>
-          <h2 class="code" value="code">
-            Pin Code:<span id="pin_code"></span>
-          </h2>
-        </div>
-      </div> -->
+    </div>
+    <div class="pop_up" id="pop_up">
+      <img src="images/tick.png" />
+      <h2>Thank You!</h2>
+      <p>Your payment has been successfully submitted.</p>
+      <button type="button" onclick="closePopup()">OK</button>
     </div>
     <script src="script.js"></script>
   </body>
