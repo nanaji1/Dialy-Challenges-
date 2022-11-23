@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form id="form" action="">
+        <div class="row">
+          <div class="col">
+            <h3 class="title">Billing address</h3>
+            <div class="inputBox">
+              <span>Full Name:</span>
+              <input type="text" name="full_name" placeholder="full name" />
+            </div>
+            <div class="inputBox">
+              <span>Email:</span>
+              <input type="text" name="email" placeholder="Email@gmail.com" />
+            </div>
+            <div class="inputBox">
+              <span>Address:</span>
+              <input
+                type="text"
+                name="address"
+                placeholder="Room-Street-Locality"
+              />
+            </div>
+            <div class="inputBox">
+              <span>City:</span>
+              <input type="text" name="city" placeholder="city" />
+            </div>
+            <div class="flex">
+              <div class="inputBox">
+                <span>State:</span>
+                <input type="text" name="state" placeholder="state" />
+              </div>
+              <div class="inputBox">
+                <span>Pin Code:</span>
+                <input type="text" name="pin_code" placeholder="123-456" />
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <h3 class="title">Payment Option</h3>
+            <div class="inputBox">
+              <span>Cards accepted:</span>
+              <div class="container_img">
+                <img src="images/paypal.webp" />
+                <img src="images/visa.png" />
+                <img src="images/master.png" />
+                <img src="images/american.png" />
+              </div>
+            </div>
+            <div class="inputBox">
+              <span>Name on card:</span>
+              <input type="text" name="name_on_card" placeholder="mr." />
+            </div>
+
+            <div class="inputBox">
+              <span>Credit Card number:</span>
+              <input
+                type="number"
+                name="credit_card_number"
+                placeholder="1111-2222-3333-4444"
+              />
+            </div>
+            <div class="inputBox">
+              <span>Exp Month:</span>
+              <input type="text" name="exp_month" placeholder="month" />
+            </div>
+            <div class="flex">
+              <div class="inputBox">
+                <span>Exp Year:</span>
+                <input type="number" name="exp_year" placeholder="year" />
+              </div>
+              <div class="inputBox">
+                <span>CVV:</span>
+                <input type="text" name="cvv" placeholder="1234" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <input
+          type="submit"
+          value="Proceed to payment"
+          class="submit_btn"
+          onclick="myFunction()"
+        />
+      </form>
+      <!-- <div class="h2" id="show">
+        <h2 class="name" value="fname">
+          Full Name: <span id="full_name"></span>
+        </h2>
+        <h2 class="email" value="email">Email:<span id="email"></span></h2>
+        <h2 class="address" value="address">
+          Address:<span id="address"></span>
+        </h2>
+        <h2 class="city" value="city">City:<span id="city"></span></h2>
+        <div>
+          <h2 class="state" value="state">State:<span id="state"></span></h2>
+          <h2 class="code" value="code">
+            Pin Code:<span id="pin_code"></span>
+          </h2>
+        </div>
+      </div> -->
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
